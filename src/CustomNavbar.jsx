@@ -3,9 +3,9 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function CustomNavbar() {
   return (
-    <Navbar className="bg-body-tertiary">
+    <Navbar className="bg-body-tertiary" data-bs-theme="dark">
       <Container>
-        <Navbar.Brand href="#home">Navbar with text</Navbar.Brand>
+        <Navbar.Brand href="#home">GamePortal</Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>
