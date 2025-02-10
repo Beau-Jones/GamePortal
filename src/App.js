@@ -5,14 +5,19 @@ import CustomNavbar from './CustomNavbar';
 // import Footer from './Footer';
 import PostCard from './PostCard.jsx';
 import reviews from './data/reviews.js';
+import SideBar from './SideBar.jsx';
+import './Body.css';
 import './PostCard.css';
+import './CustomNavbar.css';
 
 // Define the main App component
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{ backgroundColor: 'rgba(43, 48, 53, 1)', minHeight: '100vh'}}>
       {/* Navbar component */}
       <CustomNavbar />
+
+      <SideBar />
 
       {/* Main content of the app */}
       {/* <main>

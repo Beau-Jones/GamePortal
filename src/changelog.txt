@@ -1,0 +1,10 @@
+0.1 -
+
+* PostCard component now exists
+* Data file for populating PostCard component, renders on page. 
+* Added stylesheet to overwrite default bootstrap styles
+* Added sidebar with placeholder links.
+* Navbar text now on the sides of the screen always.
+* Changed post locations to along sidebar.
+* Changed the background color and border for navbar and sidebar.
+

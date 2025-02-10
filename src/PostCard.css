@@ -29,9 +29,11 @@
     background-clip: border-box;
     flex-direction: column;
     display: flex;
-    width: 80%;
+    width: 75%;
     margin: auto;
     margin-top: 25px;
+    right: 30;
+    top: 50;
 ;
     position: relative;
 }
