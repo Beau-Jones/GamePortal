@@ -6,9 +6,11 @@ import CustomNavbar from './CustomNavbar';
 import PostCard from './PostCard.jsx';
 import reviews from './data/reviews.js';
 import SideBar from './SideBar.jsx';
+import WritePost from './WritePost.jsx';
 import './Body.css';
 import './PostCard.css';
 import './CustomNavbar.css';
+
 
 // Define the main App component
 function App() {
@@ -24,6 +26,7 @@ function App() {
         <h1>Welcome to My React App!</h1>
         <p>This is a basic layout example.</p>
       </main> */}
+      <WritePost />
       {reviews.map((person, index) =>
       <PostCard bg='success' key={index} friend={person.friend} game={person.game} text={person.text}/>
       )}

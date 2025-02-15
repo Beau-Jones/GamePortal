@@ -1,0 +1,31 @@
+.write-post-form {
+    width: 40%;
+    margin: auto;
+    margin-top: 25px;
+    left: 10;
+    top: 50;
+    position: relative;
+    background-color: rgb(33, 37, 41);
+    border: 1px solid rgba(13, 110, 253, 1);
+    border-radius: 10px;
+
+    .form-label {
+        color: rgba(13, 110, 253, 1);
+        margin: 10px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .card-header {
+        color: white;
+        text-align: center;
+        border-bottom: 1px solid rgba(13, 110, 253, 1) ;
+    }
+}
+
+.write-post-textbox {
+    width: 80% !important;
+    margin: 0 auto;
+}

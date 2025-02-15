@@ -1,3 +1,7 @@
+0.2 - 
+
+*
+
 0.1 -
 
 * PostCard component now exists
@@ -7,4 +11,6 @@
 * Navbar text now on the sides of the screen always.
 * Changed post locations to along sidebar.
 * Changed the background color and border for navbar and sidebar.
+* Form now exists for writing review posts.
+* Sidebar links are now buttons.
 

@@ -1,17 +1,16 @@
 import './SideBar.css';
+import SideBarButton from './SideBarButton';
 
 
 function SideBar() {
     return(
     <div className="sidebar">
-        <ul className="list">
-            <a href="cakes.html"><li className="list-item">Cakes</li></a>
-            <a href="pies.html"><li className="list-item">Pies</li></a>
-            <a href="candy.html"><li className="list-item">Candy</li></a>
-            <a href="cakes.html"><li className="list-item">Cakes</li></a>
-            <a href="pies.html"><li className="list-item">Pies</li></a>
-            <a href="candy.html"><li className="list-item">Candy</li></a>     
-        </ul>
+        <SideBarButton label="Cakes"/>
+        <SideBarButton label="Chocolate"/>
+        <SideBarButton label="Ice Cream"/>
+        <SideBarButton label="Fudge"/>
+        <SideBarButton label="Oreo"/>
+        <SideBarButton label="M&Ms"/>
     </div>
     );
 }
