@@ -3,3 +3,9 @@
         max-width: 2000px !important;
     }
 }
+
+.navbar-brand {
+    position: fixed !important;
+    top: 10 !important;
+    left: 20 !important;
+}

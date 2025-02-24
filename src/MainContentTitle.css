@@ -1,0 +1,9 @@
+.main-content-title {
+    display: block;
+    position: relative;
+    color: white;
+    margin: auto;
+    padding: 10px;
+    left: 220;
+    top: 60;
+}

@@ -29,7 +29,9 @@
     background-clip: border-box;
     flex-direction: column;
     display: flex;
-    width: 75%;
+    /* width: 75%; */
+    width: calc(100% - 500px);
+    min-width: 150px !important;
     margin: auto;
     margin-top: 25px;
     right: 10;

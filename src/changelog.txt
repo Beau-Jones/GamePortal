@@ -1,6 +1,9 @@
 0.2 - 
 
-*
+* Added a title for the main content post cards.
+* Sidebar no longer does weird resizing when changing the window size.
+* Main content doesn't overlap the sidebar on regular window resizing.
+* "GamePortal" no longer drifts towards center of the navbar on resize, instead fixed to the top left of screen.
 
 0.1 -
 

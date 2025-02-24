@@ -7,9 +7,11 @@ import PostCard from './PostCard.jsx';
 import reviews from './data/reviews.js';
 import SideBar from './SideBar.jsx';
 import WritePost from './WritePost.jsx';
+import MainContentTitle from './MainContentTitle.jsx';
 import './Body.css';
 import './PostCard.css';
 import './CustomNavbar.css';
+import MainContentTitle from './MainContentTitle.jsx';
 
 
 // Define the main App component
@@ -27,6 +29,7 @@ function App() {
         <p>This is a basic layout example.</p>
       </main> */}
       <WritePost />
+      <MainContentTitle />
       {reviews.map((person, index) =>
       <PostCard bg='success' key={index} friend={person.friend} game={person.game} text={person.text}/>
       )}
