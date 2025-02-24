@@ -4,6 +4,7 @@
 * Sidebar no longer does weird resizing when changing the window size.
 * Main content doesn't overlap the sidebar on regular window resizing.
 * "GamePortal" no longer drifts towards center of the navbar on resize, instead fixed to the top left of screen.
+* "Write a Review" now posts a new review under the current reviews.
 
 0.1 -
 
