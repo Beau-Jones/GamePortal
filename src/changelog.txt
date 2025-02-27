@@ -1,3 +1,7 @@
+0.3 -
+
+* Posts are now stored in a Firestore database and persist across visits.
+
 0.2 - 
 
 * Added a title for the main content post cards.
