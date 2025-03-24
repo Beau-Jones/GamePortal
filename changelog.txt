@@ -1,6 +1,9 @@
 0.3 -
 
 * Posts are now stored in a Firestore database and persist across visits.
+* Created server, downloaded dependencies for Steam login. Including Express, Passport, Express-session, dotenv.
+* Created .env file that houses my Steam API. The API is used in the server. 
+* Added (non-functional) "Login With Steam" button on navigation bar for eventual hook-up for login functionality.
 
 0.2 - 
 

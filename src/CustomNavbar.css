@@ -9,3 +9,8 @@
     top: 10 !important;
     left: 20 !important;
 }
+
+button {
+    background-color: rgba(13, 110, 253, 1);
+    border: black;
+}

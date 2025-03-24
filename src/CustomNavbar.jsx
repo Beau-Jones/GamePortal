@@ -9,7 +9,7 @@ function CustomNavbar() {
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>
-            Signed in as: <a href="#login">Beau Jones</a>
+            Placeholder for LoginButton
           </Navbar.Text>
         </Navbar.Collapse>
       </Container>
