@@ -2,7 +2,8 @@ const express = require('express');
 const session = require('express-session');
 const passport = require('passport');
 const SteamStrategy = require('passport-steam').Strategy;
-require('dotenv').config({ path: './server/.env' }); // Optional if you store your API keys in a .env file
+const path = require('path');
+require('dotenv').config({ path: path.resolve(__dirname, '../.env') }); // Optional if you store your API keys in a .env file
 console.log('Your Steam API Key:', process.env.STEAM_API_KEY);
 
 const app = express();
@@ -20,7 +21,7 @@ app.use(passport.session());
 
 // Steam strategy setup
 passport.use(new SteamStrategy({
-    returnURL: 'http://localhost:3001/auth/steam/return',
+    returnURL: 'http://localhost:3002/auth/steam/return',
     realm: 'http://localhost:3001/',
     apiKey: process.env.STEAM_API_KEY
   },

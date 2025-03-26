@@ -1,4 +1,5 @@
 import Container from 'react-bootstrap/Container';
+import LoginButton from './LoginButton.jsx';
 import Navbar from 'react-bootstrap/Navbar';
 
 function CustomNavbar() {
@@ -9,7 +10,7 @@ function CustomNavbar() {
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>
-            Placeholder for LoginButton
+            <LoginButton />
           </Navbar.Text>
         </Navbar.Collapse>
       </Container>
